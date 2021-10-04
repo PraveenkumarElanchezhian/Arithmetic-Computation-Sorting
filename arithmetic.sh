@@ -20,3 +20,6 @@ echo "Computation second value is ${Computation_of_numbers[second]}";
 echo "Computation third value is ${Computation_of_numbers[third]}";
 echo "Computation fourth value is ${Computation_of_numbers[fourth]}";
 
+array_of_dictionary_numbers=(${Computation_of_numbers[first]},${Computation_of_numbers[second]},${Computation_of_numbers[third]},${Computation_of_numbers[fourth]})
+
+echo "array_of_dictionary_numbers = ${array_of_dictionary_numbers[*]}";
